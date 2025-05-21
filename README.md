@@ -9,6 +9,13 @@ Backend API sederhana menggunakan Express.js, SQLite, dan Swagger untuk dokument
 - Todo List (CRUD, kategori, progress history, kolaborator)
 - Dokumentasi API otomatis dengan Swagger
 
+## Requirement
+
+- Node.js v22.12.0 atau lebih baru
+- npm v11.0.0 atau lebih baru
+
+Pastikan Node.js dan npm sudah terinstall sebelum menjalankan perintah instalasi.
+
 ## Instalasi
 
 1. Clone repo ini
