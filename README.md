@@ -18,7 +18,13 @@ Pastikan Node.js dan npm sudah terinstall sebelum menjalankan perintah instalasi
 
 ## Instalasi
 
-1. Clone repo ini
+1. Clone repo ini:
+
+   ```
+   git clone https://github.com/abaaast/Express-Api.git
+   cd expres-be
+   ```
+
 2. Install dependencies:
    ```
    npm install
@@ -67,5 +73,21 @@ Swagger UI tersedia di:
 
 ---
 
+## Kontribusi
+
+Kontribusi sangat terbuka!  
+Silakan fork repo ini, buat branch baru, dan ajukan pull request.
+
+## ☕ Dukung Saya
+
+Saya programmer pemula dari Indonesia 🇮🇩  
+Jika kamu suka proyek ini, kamu bisa dukung saya di:
+
+[![Trakteer](https://trakteer.id/images/embed/trbtn-red-6.png)](https://trakteer.id/abaaast)
+
+## Lisensi
+
+This project is licensed under the [MIT License](./LICENSE).
+
 **Author:**  
-Abaaast
+Abaaast [Instagram](https://instagram.com/abaaast)
