@@ -11,13 +11,14 @@ const seedUsers = async () => {
     const passwordHash2 = await bcrypt.hash("pas1234", saltRounds);
 
     const stmt = db.prepare(`
-      INSERT INTO users (username, fullname, password, role, stat_active)
+      INSERT INTO tbl_users00 (username, fullname, password, role, stat_active)
       VALUES (?, ?, ?, ?, ?)
     `);
 
     stmt.run("develop", "Developer", passwordHash, 0, 1);
     stmt.run("admin", "Administrator", passwordHash2, 1, 1);
     stmt.run("user1", "User One", passwordHash2, 2, 1);
+    stmt.run("user2", "User Two", passwordHash2, 2, 1);
 
     stmt.finalize(() => {
       console.log("Seed users inserted");

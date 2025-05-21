@@ -1,12 +1,12 @@
 {
   "name": "expres-be",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "setup-db": "node database/setup.js",
     "swagger": "node swagger/swagger.js",
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
