@@ -58,7 +58,21 @@ Swagger UI tersedia di:
 
 ## 📁 Struktur Direktori
 
-. ├── src/ │ ├── routes/ # Definisi endpoint/route Express │ ├── controllers/ # Logika bisnis untuk menangani request dari route │ ├── models/ # Model database (ORM / Sequelize / Knex / Query Builder) │ ├── middlewares/ # Middleware Express (autentikasi, error handler, dsb) │ ├── utils/ # Fungsi utilitas/helper yang digunakan di berbagai bagian aplikasi │ ├── services/ # (Opsional) Logika bisnis kompleks, terpisah dari controller │ ├── config/ # Konfigurasi aplikasi (database, env, dsb) │ ├── validators/ # Validasi input request (Joi, express-validator, dsb) │ └── docs/ # (Opsional) Dokumentasi tambahan atau definisi Swagger ├── database/ # File migrasi & seed database └── swagger/ # Konfigurasi & output dokumentasi Swagger
+```
+.
+├── src/
+│   ├── routes/         # Definisi endpoint/route Express
+│   ├── controllers/    # Logika bisnis untuk menangani request dari route
+│   ├── models/         # Model database (ORM / Sequelize / Knex / Query Builder)
+│   ├── middlewares/    # Middleware Express (autentikasi, error handler, dsb)
+│   ├── utils/          # Fungsi utilitas/helper yang digunakan di berbagai bagian aplikasi
+│   ├── services/       # (Opsional) Logika bisnis kompleks, terpisah dari controller
+│   ├── config/         # Konfigurasi aplikasi (database, env, dsb)
+│   ├── validators/     # Validasi input request (Joi, express-validator, dsb)
+│   └── docs/           # (Opsional) Dokumentasi tambahan atau definisi Swagger
+├── database/           # File migrasi & seed database
+└── swagger/            # Konfigurasi & output dokumentasi Swagger
+```
 
 ---
 
